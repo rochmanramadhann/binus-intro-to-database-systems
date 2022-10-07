@@ -1,4 +1,5 @@
 # Binus University
+
 This repository includes my personal homework for the course Introduction to Database Systems on forum session 10.
 
 ```mysql
@@ -6,13 +7,13 @@ CREATE DATABASE binus_library;
 USE binus_library;
 
 # Tabel MSStudent
-CREATE TABLE MSStudent
+CREATE TABLE MsStudent
 (
     StudentID      INT         NOT NULL AUTO_INCREMENT,
     StudentName    VARCHAR(50) NOT NULL,
     StudentAddress TEXT        NOT NULL,
     PhoneNumber    VARCHAR(15) NOT NULL,
-    MAJOR          VARCHAR(50) NOT NULL,
+    Major          VARCHAR(50) NOT NULL,
     PRIMARY KEY (StudentID)
 ) ENGINE = InnoDB;
 
@@ -50,4 +51,5 @@ CREATE TABLE TrDetailBorrowing
     PRIMARY KEY (BorrowID, BookID)
 ) ENGINE = InnoDB;
 ```
+
 Created by Rochman Ramadhani Chiefto Irawan ❤.
